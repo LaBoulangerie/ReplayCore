@@ -1,0 +1,36 @@
+lang:
+    prefix: "<gradient:#0e6b9d:#3188e9>[ReplayCore]"
+    syntax:
+        replay-delay: "<yellow>/replay delay <tickDelay>"
+        replay-load-corners: "<yellow>/replay load corners x1 y1 z1 x2 y2 z2"
+        replay-load-selection: "<yellow>/replay load selection"
+        replay-log: "<yellow>/replay log <on|off|toggle>"
+        replay-step: "<yellow>/replay step <forward|backward>"
+    err:
+        not-a-player: "<red>You're not a player!"
+        missing-mode: "<red>Missing mode!"
+        worldedit-not-installed: "<red>WorldEdit is not installed!"
+        incomplete-selection: "<red>Selection is not complete! Try to remake the selection."
+        missing-corners: "<red>Missing corners!"
+        missing-arguments: "<red>Missing arguments!"
+        invalid-arguments: "<red>Invalid arguments!"
+        invalid-corners: "<red>Invalid corners!"
+        invalid-mode: "<red>Invalid mode!"
+        invalid-direction: "<red>Invalid direction!"
+        no-replay-found: "<red>No replay found! Start a replay with /replay."
+    info:
+        version: "Running version <version>!"
+        authors-website: "Made by <authors>, at <website>"
+        fetching-coreprotect: "Fetching CoreProtect's history for <count> blocks..."
+        successfully-loaded: "Successfully loaded replay."
+        delay: "Set delay to <delay> ticks."
+        pause: "Paused current replay."
+        play: "Playing current replay."
+        restore: "Restored the replay."
+        rollback: "Rollbacked the replay."
+        step: "Stepped <direction>."
+        log: >-
+            Block <yellow><action></yellow> 
+            at <click:suggest_command:'/minecraft:tp @s <coordinates>'><yellow>[<coordinates>]</yellow></click> 
+            by <player> 
+            on <yellow><date:'dd/MM/yyyy HH:mm:ss'></yellow>

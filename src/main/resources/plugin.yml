@@ -1,0 +1,22 @@
+name: ReplayCore
+version: ${project.version}
+main: net.laboulangerie.replaycore.ReplayCore
+api-version: 1.19
+authors: [PainOchoco]
+depend: [CoreProtect]
+softdepend: [WorldEdit]
+website: laboulangerie.net
+
+commands:
+    replay:
+        permission: replaycore.replay
+        description: Generate a replay world on the selection
+        usage: "Usage: /replay <delay|load|pause|play|restore|rollback|step> [args]"
+        aliases: [rep]
+permissions:
+    replaycore.replay:
+        default: op
+    replaycore.rollback:
+        default: op
+    replaycore.restore:
+        default: op
